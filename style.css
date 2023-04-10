@@ -65,6 +65,10 @@ h2 {
     font-size: 47.34px;
 }
 
+.gamburger {
+    display: none;
+}
+
 .year {
     margin-top: 94.77px;
     font-size: 18px;
@@ -218,6 +222,18 @@ h2 {
 
     .nav {
         display: none;
+    }
+
+    .logo {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .gamburger {
+        cursor: pointer;
+        display: block;
+        margin-top: 55px;
     }
 
     .main-description {
