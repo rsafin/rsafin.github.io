@@ -1,5 +1,11 @@
 body {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+}
+
+h2 {
     font-family: 'Gilroy-Bold';
+    font-size: 34px;
 }
 
 .wrapper {
@@ -17,6 +23,7 @@ body {
     display: flex;
     justify-content: space-between;
 
+    font-family: 'Gilroy-Bold';
     font-size: 18px;
 
     border-bottom: 1px solid #828282;
@@ -42,13 +49,14 @@ body {
 }
 
 .logo h1 {
+    font-family: 'Gilroy-Bold';
     margin-top: 39.69px;
     font-size: 47.34px;
 }
 
 .year {
     margin-top: 94.77px;
-    font-family: 'Gilroy-Medium';
+    
     font-size: 18px;
 }
 
@@ -95,6 +103,54 @@ body {
     line-height: 22px;
 }
 
+.skils {
+    text-align: center;
+    padding: 91px 0;
+    margin-bottom: 19.06px;
+}
+
+.skils h2 {
+    margin-top: 0px;
+    margin-bottom: 69.1px;
+} 
+
+.skils-items {
+    margin-top: 81.49px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skils-items img {
+    margin-bottom: 26.81px;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating__star {
+    width: 20px;
+    height: 20px;
+    background-image: url(img/star-disable.svg);
+    margin: 7.5px;
+}
+
+.rating__star.active {
+    background-image: url(img/star-active.svg);
+}
+
 .portfolio {
     background-color: #F6F6F6;
+    padding: 112.93px 0;
+    text-align: center;
+}
+
+.portfolio h2 {
+    margin-bottom: -52px;
+}
+
+.portfolio img {
+    margin-bottom: 44px;
+    margin-top: 99px;
 }
