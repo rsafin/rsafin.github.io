@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Gilroy-Medium';
     font-size: 18px;
@@ -48,6 +52,13 @@ h2 {
     justify-content: space-between;
 }
 
+.photo {
+    width: 945px;
+    height: 388px;
+    margin-top: 31px;
+    background-image: url(img/photo.png);
+}
+
 .logo h1 {
     font-family: 'Gilroy-Bold';
     margin-top: 39.69px;
@@ -56,7 +67,6 @@ h2 {
 
 .year {
     margin-top: 94.77px;
-    
     font-size: 18px;
 }
 
@@ -96,6 +106,7 @@ h2 {
 
 .about-me h2 {
     margin-top: 63.25px;
+    margin-bottom: 18px;
 }
 
 .about-me div {
@@ -150,9 +161,23 @@ h2 {
     margin-bottom: -52px;
 }
 
-.portfolio img {
+.portfolio-img {
+    width: 937px;
+    height: 522px;
     margin-bottom: 44px;
     margin-top: 99px;
+}
+
+.portfolio-img.camping-sale {
+    background-image: url(img/camping-sale.png);
+}
+
+.portfolio-img.rebok {
+    background-image: url(img/reebok.png);
+}
+
+.portfolio-img.braun {
+    background-image: url(img/braun.png);
 }
 
 .contacts {
@@ -160,6 +185,10 @@ h2 {
     width: 300px;
     margin: 0px auto;
     padding: 114px 0;
+}
+
+.contacts h2 {
+    margin-bottom: 20px;
 }
 
 .social {
@@ -179,4 +208,79 @@ h2 {
 
 .poscriptum {
     font-size: 14px;
+}
+
+@media screen and (max-width: 945px) {
+    .wrapper {
+        width: 317px;
+        margin: 0px auto;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .main-description {
+        display: block;
+    }
+
+    .year {
+        margin-top: 23px;
+    }
+
+    .lang-toggle {
+        display: none;
+    }
+
+   .photo {
+        width: 317px;
+        height: 378px;
+        margin-top: 36px;
+        background-image: url(img/photo-mobile.png);
+    }
+
+    .skils {
+        padding-bottom: 0;
+    }
+
+    .skils h2 {
+        margin-bottom: 50px;
+    }
+
+    .skils-items {
+        margin-top: 81.49px;
+        display: block;
+    }
+
+    .skils-box {
+        margin-bottom: 81px;
+    }
+
+    .rating {
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .portfolio h2 {
+        margin-bottom: 10px;
+    }
+
+    .portfolio-img {
+        width: 316px;
+        height: 176px;
+        margin-bottom: 35px;
+        margin-top: 77px;
+    }
+
+    .portfolio-img.camping-sale {
+        background-image: url(img/camping-sale-mobile.png);
+    }
+    
+    .portfolio-img.rebok {
+        background-image: url(img/reebok-mobile.png);
+    }
+    
+    .portfolio-img.braun {
+        background-image: url(img/braun-mobile.png);
+    }
 }
