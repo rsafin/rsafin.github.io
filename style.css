@@ -69,6 +69,74 @@ h2 {
     display: none;
 }
 
+.gamburger-menu-wrapper {
+    display: none;
+}
+
+.gamburger-menu-wrapper {
+    width: 349px;
+    margin: 0 auto;
+    font-size: 34px;
+    background-color: #fff;
+}
+
+.gamburger-menu {
+    margin-top: 66px;
+    font-family: 'Gilroy-Bold';
+    
+}
+
+.gamburger-menu a {
+    text-decoration: none;
+    color: #828282;
+}
+
+.gamburger-menu a:hover {
+    color: #000;
+}
+
+.gamburger-menu a.active {
+    color: #000;
+}
+
+.gamburger-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gamburger-nav ul {
+    list-style: none;
+}
+
+.gamburger-close {
+    width: 23px;
+    height: 23px;
+    background-image: url(img/crose.svg);
+    cursor: pointer;
+}
+
+.gamburger-lang-toggle {
+    margin-bottom: 69.5px;
+    writing-mode: vertical-lr;
+    font-size: 16px;
+    color: #828282;
+
+    float: right;
+}
+
+.gamburger-lang-toggle a {
+    color: #828282;
+    text-decoration: none;
+}
+
+.gamburger-lang-toggle a:hover {
+    color: #000;
+}
+
+.gamburger-lang-toggle .active {
+    color: #000;
+}
+
 .year {
     margin-top: 94.77px;
     font-size: 18px;
