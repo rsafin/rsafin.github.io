@@ -154,3 +154,29 @@ h2 {
     margin-bottom: 44px;
     margin-top: 99px;
 }
+
+.contacts {
+    text-align: center;
+    width: 300px;
+    margin: 0px auto;
+    padding: 114px 0;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 102px;
+    margin-bottom: 45px;
+}
+
+.send-message-button {
+    width: 187px;
+    height: 40px;
+    background-color: #000;
+    color: #FFF;
+    padding: 5px 10px;
+}
+
+.poscriptum {
+    font-size: 14px;
+}
